@@ -1,0 +1,119 @@
+.ka {
+	display: flex;
+	vertical-align: middle;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ws {
+	display: inline-flex;
+	align-items: center;
+	vertical-align: top;
+	width: 1600px;
+	height: 80px;
+}
+
+.box-logo {
+	width: 153px;
+	height: 31px;
+	margin-left: 215px;
+	margin-right: 0px;
+	margin-top: 24px;
+	margin-bottom: 25px;
+}
+
+.box-header {
+	padding: 0px;
+}
+
+header > .box-header {
+	display: inline;
+}
+
+.space {
+	margin-right: 50px;
+}
+/* 2-а цвета в logo */
+.logo-blue {
+	color: $button-b;
+}
+
+.black {
+	color: $text-a;
+}
+.list {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.social-links {
+	color: $logoColor;
+	fill: $logoColor;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+	color: $button-b;
+	fill: $button-b;
+	@extend %cubic;
+}
+
+.social-links svg:hover,
+.social-links svg:focus {
+	color: $button-b;
+	fill: $button-b;
+	@extend %cubic;
+}
+
+.link {
+	fill: $text-b;
+}
+
+.box-nav-menu {
+	min-width: 599px;
+	margin-left: 84px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.box-menu-nav {
+	width: 548px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.line {
+	position: relative;
+	line-height: 80px;
+}
+
+.line a:hover:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 4px;
+	width: 100%;
+	background: $button-b;
+	border-radius: 4px;
+	@extend %cubic;
+}
+
+.space-a {
+	margin-right: 30px;
+}
+
+.mail-p {
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	color: $text-b;
+}
+
+.descension {
+	display: inline;
+	position: relative;
+	top: 1px;
+}
